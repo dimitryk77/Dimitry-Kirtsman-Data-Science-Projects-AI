@@ -1,6 +1,19 @@
 
 ## Dimitry Kirtsman Data Science Projects
 
+### Enhancing LLMs for Domain-Specific Tasks Through Dataset Creation, Model Fine-tuning, and Retrieval-Augmented Generation(RAG)
+The analysis presents a series of experiments to enhance the performance of a Llama 2-7B model in generating accurate answers for a specific domain, using an HP computer troubleshooting guide as a case study. The analysis employs a multi-pronged approach, starting with the generation of a question-answer pair dataset from the troubleshooting guide using ChatGPT (GPT-4). Next,  a Llama 2-7B model is fine-tuned using the dataset. Lastly, retrieval-augmented generation (RAG) techniques with Pinecone are explored for improved performance. A detailed account of each experiment, the methodologies employed, and the outcomes are provided, offering insights into the challenges and potential solutions of using generative AI in this context.
+
+**Software:** Python
+
+**Methods:** Llama 2, ChatGPT API, LangChain, LLM Fine-tuning, and Retrieval-Augmented Generation.
+
+[Link to Analysis Discussion](https://drive.google.com/file/d/1IdngZ0j3DGRBu_WYUxBmPg4BI9UnfkLi/view?usp=sharing) 
+
+[Link to Code](https://github.com/dimitryk77/Llama-2-Fine-Tuning-and-RAG-Models-)  
+
+<br />
+
 ### Forecasting Stock Prices Using LSTM and Transformer Architectures
 The paper investigated the efficacy of LSTM and Transformer models in forecasting one-day ahead stock price returns. In addition, both models used the Time2Vec algorithm as a positional embedding layer. The stocks considered in the analysis were Amazon (AMZN), Intel (INTC), Pfizer (PFE), Proctor & Gamble (PG), and Verizon (VZ). The models used a ten-year time series from October 1, 2012, to September 30, 2022, with price, volume, and a variety of technical indicators serving as the features for each model. Training for all models used a cross-validation design with hyperparameter tuning. RMSE and MAPE were utilized to evaluate price level forecast performance. In addition, binary (up/down) signals were created from the price forecasts and assessed using accuracy and F1 scores. Study results showed no significant performance differences between the two models.
 
