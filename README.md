@@ -8,7 +8,7 @@ The analysis presents a series of experiments to enhance the performance of a Ll
 
 **Methods:** Llama 2, ChatGPT API, LangChain, LLM Fine-tuning, and Retrieval-Augmented Generation.
 
-[Link to Analysis Discussion](https://drive.google.com/file/d/1lYJynIgTNk8EhU96NNRsFrQHQt4Fvo22/view?usp=sharing) 
+[Link to Analysis Discussion](https://drive.google.com/file/d/16UefmGMvpfr_1q9l21pN6KDDB0b-mqyx/view?usp=sharing) 
 
 [Link to Code](https://github.com/dimitryk77/Llama-2-Fine-Tuning-and-RAG-Models-)  
 
